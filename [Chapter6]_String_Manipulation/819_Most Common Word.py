@@ -7,7 +7,7 @@ import re
 class Solution:
     def mostCommonWord(self, paragraph: str, banned: List[str]) -> str:
         s = re.sub(r'[^a-z]', ' ', paragraph.lower())
-        # input "a, a, a, a, b,b,b,c, c" 일때 때문에 replace 넣어줌
+        # input "a, a, a, a, b,b,b,c, c" 같은거 때문에 정규식으로 전처리 해줌
         arr = s.split()
         frequency_dict = {}
         for element in arr:
