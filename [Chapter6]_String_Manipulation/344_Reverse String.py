@@ -10,6 +10,7 @@ class Solution:
         length = len(s)
         half = length//2
         for i in range(half):
+            # swap
             front = s[i]
             s[i] = s[length-1-i]
             s[length-1-i] = front
