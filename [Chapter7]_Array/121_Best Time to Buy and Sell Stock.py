@@ -66,3 +66,14 @@ class Solution:
                 max_profit = max(prices[i] - buy_price, max_profit)
         
         return max_profit
+
+'''
+결과
+
+Success
+
+Details 
+Runtime: 989 ms, faster than 72.53% of Python3 online submissions for Best Time to Buy and Sell Stock.
+Memory Usage: 27.5 MB, less than 9.55% of Python3 online submissions for Best Time to Buy and Sell Stock.
+
+'''
